@@ -31,7 +31,9 @@ function App() {
   return (
     <>
       <div className="min-h-screen flex flex-col justify-center items-center bg-indigo-800 text-center align-middle text-white gap-3 py-9 px-3">
-        <span className="font-bold text-4xl text-white">Media Recorder</span>
+        <span className="font-bold text-4xl text-white">
+          Interv Media Recorder
+        </span>
         <div className="flex flex-col gap-3">
           <p>{"Screen status: " + MediaRecorderScreen.status}</p>
           <p>{"Webcam status: " + MediaRecorderWebcam.status}</p>
